@@ -14,8 +14,19 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AW" customModuleProvider="target">
                     <items>
-                        <imageView height="148" alignment="center" verticalAlignment="center" image="Image" contentMode="scaleAspectFit" id="qMz-NW-bvb"/>
+                        <imageView height="148" alignment="center" verticalAlignment="center" image="Xerxes" contentMode="scaleAspectFit" id="qMz-NW-bvb">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="dPq-PT-oYB">
+                                    <connections>
+                                        <action selector="tappd:" destination="AgC-eL-Hgc" id="9jc-ML-wTj"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                        </imageView>
                     </items>
+                    <connections>
+                        <outlet property="image" destination="qMz-NW-bvb" id="IQJ-dL-ffV"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="118" y="109"/>

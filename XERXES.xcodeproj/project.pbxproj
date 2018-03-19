@@ -12,12 +12,7 @@
 		3D1DA4F0205C69C500975AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4EE205C69C500975AA3 /* Main.storyboard */; };
 		3D1DA4F2205C69C500975AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4F1205C69C500975AA3 /* Assets.xcassets */; };
 		3D1DA4F5205C69C500975AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4F3205C69C500975AA3 /* LaunchScreen.storyboard */; };
-		57EDF401205F21A9002F5A7E /* xxrmsg01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57EDF400205F21A9002F5A7E /* xxrmsg01.wav */; };
-		57EDF402205F2245002F5A7E /* xxrmsg01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57EDF400205F21A9002F5A7E /* xxrmsg01.wav */; };
-		57F0CDB0205F1BD300BF5735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F285205F0E340056617F /* Assets.xcassets */; };
 		57F0CDB1205F1BD400BF5735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F285205F0E340056617F /* Assets.xcassets */; };
-		57F6AF46205F237900CDC20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4F1205C69C500975AA3 /* Assets.xcassets */; };
-		57F6AF47205F237A00CDC20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4F1205C69C500975AA3 /* Assets.xcassets */; };
 		57F7F27D205F0A080056617F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F27C205F0A080056617F /* Settings.bundle */; };
 		57F7F284205F0E340056617F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F282205F0E340056617F /* Interface.storyboard */; };
 		57F7F286205F0E340056617F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F285205F0E340056617F /* Assets.xcassets */; };
@@ -79,7 +74,6 @@
 		3D1DA4F1205C69C500975AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1DA4F4205C69C500975AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1DA4F6205C69C500975AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57EDF400205F21A9002F5A7E /* xxrmsg01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xxrmsg01.wav; sourceTree = "<group>"; };
 		57F7F27C205F0A080056617F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		57F7F280205F0E340056617F /* AW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F7F283205F0E340056617F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -149,7 +143,6 @@
 		57F7F281205F0E340056617F /* AW */ = {
 			isa = PBXGroup;
 			children = (
-				57EDF400205F21A9002F5A7E /* xxrmsg01.wav */,
 				57F7F282205F0E340056617F /* Interface.storyboard */,
 				57F7F285205F0E340056617F /* Assets.xcassets */,
 				57F7F287205F0E340056617F /* Info.plist */,
@@ -277,7 +270,6 @@
 				3D1DA4F5205C69C500975AA3 /* LaunchScreen.storyboard in Resources */,
 				3D1DA4F2205C69C500975AA3 /* Assets.xcassets in Resources */,
 				3D1DA4F0205C69C500975AA3 /* Main.storyboard in Resources */,
-				57F0CDB0205F1BD300BF5735 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57EDF401205F21A9002F5A7E /* xxrmsg01.wav in Resources */,
 				57F7F286205F0E340056617F /* Assets.xcassets in Resources */,
-				57F6AF47205F237A00CDC20F /* Assets.xcassets in Resources */,
 				57F7F284205F0E340056617F /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,9 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57EDF402205F2245002F5A7E /* xxrmsg01.wav in Resources */,
 				57F0CDB1205F1BD400BF5735 /* Assets.xcassets in Resources */,
-				57F6AF46205F237900CDC20F /* Assets.xcassets in Resources */,
 				57F7F296205F0E340056617F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

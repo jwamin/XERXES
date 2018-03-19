@@ -7,11 +7,19 @@
 //
 
 import WatchKit
+import WatchConnectivity
 
-class ExtensionDelegate: NSObject, WKExtensionDelegate {
+class ExtensionDelegate: NSObject, WKExtensionDelegate,WCSessionDelegate {
+
+    
 
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
+        if(WCSession.isSupported()){
+            let session = WCSession.default
+            session.delegate = self
+            session.activate()
+        }
     }
 
     func applicationDidBecomeActive() {
@@ -47,4 +55,23 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
         }
     }
 
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        let activated:Bool = (activationState==WCSessionActivationState.activated);
+        print("WCSession is active: \(activated)")
+    }
+    
+
+    
+    func callPhone(){
+        let message = ["method":"refresh"]
+        WCSession.default.sendMessage(message, replyHandler: { (thing) in
+            print("replyhandler")
+        }, errorHandler: { (err) in
+            print("watch error")
+        });
+        
+    }
+    
+    
 }
