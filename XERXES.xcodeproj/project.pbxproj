@@ -12,6 +12,8 @@
 		3D1DA4F0205C69C500975AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4EE205C69C500975AA3 /* Main.storyboard */; };
 		3D1DA4F2205C69C500975AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4F1205C69C500975AA3 /* Assets.xcassets */; };
 		3D1DA4F5205C69C500975AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DA4F3205C69C500975AA3 /* LaunchScreen.storyboard */; };
+		3D726C6E2060101F00BCF886 /* Complication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D726C6D2060101F00BCF886 /* Complication.swift */; };
+		3D726C6F206019AB00BCF886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F295205F0E340056617F /* Assets.xcassets */; };
 		57F0CDB1205F1BD400BF5735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F285205F0E340056617F /* Assets.xcassets */; };
 		57F7F27D205F0A080056617F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F27C205F0A080056617F /* Settings.bundle */; };
 		57F7F284205F0E340056617F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F7F282205F0E340056617F /* Interface.storyboard */; };
@@ -74,6 +76,7 @@
 		3D1DA4F1205C69C500975AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1DA4F4205C69C500975AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1DA4F6205C69C500975AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D726C6D2060101F00BCF886 /* Complication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complication.swift; sourceTree = "<group>"; };
 		57F7F27C205F0A080056617F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		57F7F280205F0E340056617F /* AW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F7F283205F0E340056617F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -157,6 +160,7 @@
 				57F7F293205F0E340056617F /* ExtensionDelegate.swift */,
 				57F7F295205F0E340056617F /* Assets.xcassets */,
 				57F7F297205F0E340056617F /* Info.plist */,
+				3D726C6D2060101F00BCF886 /* Complication.swift */,
 			);
 			path = "AW Extension";
 			sourceTree = "<group>";
@@ -278,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F7F286205F0E340056617F /* Assets.xcassets in Resources */,
+				3D726C6F206019AB00BCF886 /* Assets.xcassets in Resources */,
 				57F7F284205F0E340056617F /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F7F294205F0E340056617F /* ExtensionDelegate.swift in Sources */,
+				3D726C6E2060101F00BCF886 /* Complication.swift in Sources */,
 				57F7F292205F0E340056617F /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
